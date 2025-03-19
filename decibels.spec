@@ -15,7 +15,7 @@ BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gjs-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
-BuildRequires:  (typescript >= 5.7.3 with typescript < 5.8)
+BuildRequires:  typescript
 Requires:       hicolor-icon-theme
 # Lacking typelib dependency generator, so use package names instead
 Requires:       gtk4
