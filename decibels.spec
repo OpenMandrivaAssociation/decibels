@@ -10,6 +10,7 @@ URL:            https://www.gnome.org
 Source0:        https://download.gnome.org/sources/%{name}/48/%{name}-%{version}.tar.xz
 
 BuildRequires:  meson
+BuildRequires:  gettext
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gjs-1.0)
