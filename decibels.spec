@@ -19,6 +19,7 @@ BuildRequires:  gjs
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  typescript
+BuildRequires:  desktop-file-utils
 Requires:       hicolor-icon-theme
 # Lacking typelib dependency generator, so use package names instead
 Requires:       gtk4
