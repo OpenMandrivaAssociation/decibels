@@ -11,9 +11,11 @@ Source0:        https://download.gnome.org/sources/%{name}/48/%{name}-%{version}
 
 BuildRequires:  meson
 BuildRequires:  gettext
+BuildRequires:  appstream
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gjs-1.0)
+BuildRequires:  gjs
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  typescript
