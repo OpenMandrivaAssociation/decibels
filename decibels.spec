@@ -1,7 +1,7 @@
 %global rdnn_name org.gnome.Decibels
 
 Name:           decibels
-Version:        48.0
+Version:        49.0
 Release:        1
 Summary:        Audio player for the GNOME desktop
 Group:          Audio
